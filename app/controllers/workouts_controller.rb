@@ -1,4 +1,4 @@
-class ApplicationController < ActionController::Base
+class WorkoutsController < ActionController::Base
   def index
     @workouts = Workout.all
   end
