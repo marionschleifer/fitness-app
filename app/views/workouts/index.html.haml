@@ -1,0 +1,7 @@
+%h1="Workouts"
+
+- if @workouts.any?
+  - @workouts.each do |workout|
+    = workout
+- else
+  %div="No workouts"

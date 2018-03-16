@@ -4,7 +4,7 @@ class WorkoutsController < ActionController::Base
   end
 
   def show
-    @workouts = Workout.find(params[:id])
+    @workout = Workout.find(params[:id])
   end
 
   def new
